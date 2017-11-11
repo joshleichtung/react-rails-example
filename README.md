@@ -3,7 +3,7 @@
 * Install yarn using `brew install yarn` on macOS. 
 * `rails new -T --skip-coffee react-rails-example`
 * `cd react-rails-example`
-* add `gem 'webpacker'` and `gem 'react-rails'` to `Gemfile` and delete `coffeescript` line
+* add `gem 'webpacker'` and `gem 'react-rails'` to `Gemfile`
 * `bundle install`
 * `bin/rails webpacker:install`
 * `bin/rails webpacker:install:react`
