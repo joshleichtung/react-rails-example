@@ -1,5 +1,6 @@
 # react-rails step by step
 ## Environment setup
+* Install yarn using `brew install yarn` on macOS. 
 * `rails new -T --skip-coffee react-rails-example`
 * `cd react-rails-example`
 * add `gem 'webpacker'` and `gem 'react-rails'` to `Gemfile` and delete `coffeescript` line
