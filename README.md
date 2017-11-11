@@ -48,6 +48,8 @@ webpacker: ./bin/webpack-dev-server
 foreman start -f Procfile.dev
 ```
 * Now you can start both servers by running `bin/server` from the terminal
+* If you got a permission error trying to run `bin/server` you can update the
+  permissions in the terminal using `chmod 777 bin/server`
 # Set up react-router
 This is an example of how to set up an app that has a header, footer, and main
 content area that you can change out with three separate routes.
