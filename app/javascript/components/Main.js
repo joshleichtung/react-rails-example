@@ -13,6 +13,7 @@ class Main extends React.Component {
           <Route exact path="/" component={Home} />
           <Route exact path="/example" component={Example} />
           <Route exact path="/some_page" component={SomePage} />
+          <Route path="/*" render = {() => <div><h1>404 Not Found</h1></div>} />
         </Switch>
       </div>
     )
